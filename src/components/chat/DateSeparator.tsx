@@ -1,4 +1,4 @@
-import { formatDate } from '@/lib/parser/whatsapp-parse';
+import { formatDate } from '@/lib/parser/whatsapp-parser';
 
 interface DateSeparatorProps {
   date: Date;

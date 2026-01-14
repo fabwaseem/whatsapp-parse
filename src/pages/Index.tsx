@@ -1,7 +1,7 @@
 import { useState, useCallback } from 'react';
 import { ChatData, ParsingProgress } from '@/types/chat';
 import { extractZipFile } from '@/lib/parser/zip-extractor';
-import { parseWhatsAppChat } from '@/lib/parser/whatsapp-parse';
+import { parseWhatsAppChat } from '@/lib/parser/whatsapp-parser';
 import { useTheme } from '@/hooks/use-theme';
 import { Header } from '@/components/layout/Header';
 import { UploadZone } from '@/components/upload/UploadZone';

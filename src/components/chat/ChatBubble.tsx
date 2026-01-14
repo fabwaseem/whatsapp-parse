@@ -1,6 +1,6 @@
 import React from 'react';
 import { ParsedMessage } from '@/types/chat';
-import { formatTimestamp } from '@/lib/parser/whatsapp-parse';
+import { formatTimestamp } from '@/lib/parser/whatsapp-parser';
 import { cn } from '@/lib/utils';
 import { Check, CheckCheck, Ban, FileText, Download, Play, Pause, ChevronDown, ChevronUp, Share2, Edit, Copy, Trash2, X } from 'lucide-react';
 import { useState, useRef } from 'react';
